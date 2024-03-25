@@ -1,0 +1,153 @@
+main {
+    padding: 30px;
+    margin: 20px;
+}
+header {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #;
+    background-color: #911910;
+    padding: 10px 0;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #007BFF;
+    transition: 0.3s;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Отступ логотипа от навигации */
+  margin-left: 20px;
+
+}
+
+.logo img {
+  height: 100px; /* Размер логотипа */
+  border-radius: 20px;
+}
+
+#intro {
+    width: 100%; /* Ширина блока */
+    height: 400px; /* Высота блока. Здесь установите значение, подходящее для вашего дизайна */
+    position: relative; /* или absolute, в зависимости от того, какое позиционирование необходимо */
+    z-index: 1; /* Убедитесь, что z-index не превышает z-index других элементов, которые не должны перекрываться */
+}
+
+.home {
+    font-size: 35px;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+.home a {
+    color: white;
+    text-decoration: none;
+}
+.home a:hover {
+    background-color: white;
+    color: #007BFF;
+    transition: 0.3s;
+}
+
+h1 {
+    text-align: center;
+}
+
+.rezon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+
+.rezon img {
+    height: 500px; /* или любой другой размер, который вы хотите задать для изображения */
+    max-width: 100%; /* Чтобы изображение не выходило за пределы контейнера */
+    object-fit: contain; /* Это придаст картинке пропорциональный размер и не исказит её */
+}
+
+.pro {
+    color: #ffffff;
+    align-items: center;
+    background-color: #;
+    background-color: #911910;
+    padding: 10px 0;
+}
