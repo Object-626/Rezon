@@ -20,7 +20,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #911910;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -91,21 +91,21 @@ nav ul li a:hover {
 .logo {
   display: flex;
   align-items: center;
-  margin-right: 20px; /* Отступ логотипа от навигации */
+  margin-right: 20px;
   margin-left: 20px;
 
 }
 
 .logo img {
-  height: 100px; /* Размер логотипа */
+  height: 100px;
   border-radius: 20px;
 }
 
 #intro {
-    width: 100%; /* Ширина блока */
-    height: 400px; /* Высота блока. Здесь установите значение, подходящее для вашего дизайна */
-    position: relative; /* или absolute, в зависимости от того, какое позиционирование необходимо */
-    z-index: 1; /* Убедитесь, что z-index не превышает z-index других элементов, которые не должны перекрываться */
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: 1;
 }
 
 .home {
@@ -139,9 +139,9 @@ h1 {
 
 
 .rezon img {
-    height: 500px; /* или любой другой размер, который вы хотите задать для изображения */
-    max-width: 100%; /* Чтобы изображение не выходило за пределы контейнера */
-    object-fit: contain; /* Это придаст картинке пропорциональный размер и не исказит её */
+    height: 500px;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 .pro {
@@ -151,3 +151,206 @@ h1 {
     background-color: #911910;
     padding: 10px 0;
 }
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #666;
+}
+
+.details-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.details-btn:hover {
+    background-color: #0056b3;
+}
+
+.team {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #666;
+}
+
+.partners {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.partners-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.partner-card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 300px;
+}
+
+.partner-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.partner-card h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.partner-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.contacts {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.contact-link {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Радиус скругления углов изображений*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень вокруг изображений */
+    transition: transform 0.3s ease; /* Плавное увеличение изображений при наведении */
+}
+
+.images img:hover {
+    transform: scale(1.05); /* Увеличение изображения при наведении */
+}
+
+@media (max-width: 600px) {
+    .images {
+        grid-template-columns: 1fr; /* На маленьких экранах изображения будут в один столбец */
+    }
+}
+.content {
+    max-width: 1000px; /* Максимальная ширина контентного блока */
+    margin: 0 auto; /* Выравнивание по центру */
+    padding: 20px; /* Отступы внутри контентного блока */
+    background-color: #f9f9f9; /* Цвет фона для контентного блока */
+    border-radius: 8px; /* Скругление углов */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Тень для блока */
+    line-height: 1.6; /* Междустрочный интервал */
+    color: #333; /* Цвет текста */
+}
+
+.content h3 {
+    color: #1a76d2; /* Цвет заголовков */
+    margin-top: 1em; /* Отступ сверху для заголовков */
+}
+
+.content p {
+    font-size: 16px; /* Размер шрифта для параграфов */
+    text-align: justify; /* Выравнивание текста по ширине */
+    margin-bottom: 1em; /* Интервалы между параграфами */
+}
+
+.content ul {
+    list-style-type: disc; /* Тип стиля для маркеров списка */
+    padding-left: 20px; /* Отступ для списка */
+}
+
+.content li {
+    margin-bottom: 0.5em; /* Интервалы между элементами списка */
+}
+
+@media(max-width: 768px) {
+    .content {
+        padding: 10px; /* Уменьшение отступов для мобильных устройств */
+    }
+}
+.details-btn {
+    display: block; /* Делаем элемент блочным для возможности центрирования */
+    margin: 20px auto; /* Верхний и нижний отступ 20px, автоматический отступ слева и справа для центрирования */
+    text-align: center; /* Центрируем текст внутри если кнопка является ссылкой */
+    /* дополнительные стили кнопки */
+}
+
+

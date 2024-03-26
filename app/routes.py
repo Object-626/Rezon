@@ -31,3 +31,7 @@ async def contacts_page(request: Request):
     return templates.TemplateResponse("contacts.html", {"request": request})
 
 
+@router.get("/details")
+async def contacts(request: Request):
+    return templates.TemplateResponse("details.html", {"request": request})
+
